@@ -1,0 +1,199 @@
+VERSO · CANTO Y COMPOSICIÓN
+Aplicación estática de aprendizaje y creación de canciones
+
+INSTALAR EN TU HOSTING
+
+1. Crea una carpeta vacía, por ejemplo public_html/verso/.
+2. Sube Verso-Canto-Composicion-Hosting.zip y extráelo allí.
+3. Comprueba que index.html esté directamente en esa carpeta.
+   Debe quedar junto a app.js, content.js, core.js, audio.js, styles.css
+   y assets/ con mark.svg y voice.svg.
+4. Abre https://tu-dominio.com/verso/ en una pestaña del navegador.
+5. En Ajustes, selecciona una referencia y límites cómodos para tu voz.
+6. Activa el micrófono desde el laboratorio o un control y permite su uso.
+
+No necesitas PHP, base de datos, Node.js en el servidor, claves API ni
+instalar dependencias. Puedes usar la raíz del dominio o una subcarpeta.
+Las rutas usan #/ y no requieren reescritura de URL. Todos los recursos
+necesarios de la aplicación están incluidos: no depende de fuentes o
+scripts de un CDN. Los enlaces de consulta abren fuentes externas al pulsarlos.
+
+REQUISITOS DEL NAVEGADOR Y EL MICRÓFONO
+
+- HTTPS con certificado válido. HTTP normal no permite capturar micrófono.
+  Un entorno de desarrollo localhost puede admitirse como contexto seguro.
+- Navegador actualizado con Web Audio, getUserMedia, localStorage e IndexedDB.
+- MediaRecorder permite grabar muestras. Si no está disponible, puedes aportar
+  un archivo compatible de tu voz, pero la prueba de notas sigue necesitando
+  un micrófono que el navegador pueda capturar.
+- Usa una pestaña normal si una vista integrada bloquea los permisos.
+- Si el hosting utiliza Permissions-Policy, no debe bloquear microphone.
+  Si incrustas en un iframe, la política de la página superior y su atributo
+  allow="microphone" también deben permitirlo. Se recomienda acceso directo.
+- Si negaste el permiso, habilítalo en los ajustes del sitio y vuelve a entrar.
+
+PRIMERA SESIÓN
+
+1. Lee la clase 1. Prepara un lugar tranquilo y escucha referencias a volumen
+   moderado. No necesitas otro instrumento: hay teclado de referencia.
+2. Elige en Ajustes una nota de partida y una zona cómoda actual. No son una
+   clasificación vocal, un diagnóstico ni una meta de extensión máxima.
+   Si tienes dudas, hazlo con un docente. Confirma la zona solo si es cómoda.
+3. Las pruebas quedan deshabilitadas si falta esa confirmación o si su patrón
+   no cabe en los límites elegidos. Puedes leer y escribir mientras tanto.
+4. En Laboratorio vocal, activa la escucha y canta una nota recta y breve.
+   La lectura debe corresponder a la altura de concierto mostrada.
+5. Detén el micrófono antes de escuchar una referencia sintetizada. En un
+   control, la app silencia sus referencias y el metrónomo sonoro.
+6. Para cerrar una clase, responde 3/3 preguntas, aprueba la secuencia vocal,
+   guarda el ejercicio escrito y completa las tres observaciones.
+7. Recarga la página para comprobar que el progreso queda guardado.
+
+Los minutos sugeridos incluyen leer, escribir, escuchar y descansar. No son
+una indicación de cantar continuamente. La técnica se trabaja con docente;
+el micrófono no mide esfuerzo ni salud vocal. La app es educativa y no
+diagnostica ni trata problemas de voz.
+
+QUÉ INCLUYE
+
+- 48 clases, ocho niveles y 144 preguntas con explicaciones.
+- Entrenamiento de oído, ritmo, lectura, afinación y dicción.
+- Trabajo vocal guiado de expresión, transiciones y recursos de estilo.
+- Letra, perspectiva, detalles, rima, prosodia y frase gancho.
+- Motivos, melodía, acordes, funciones, tensión, forma y arreglo.
+- Demo, observaciones de oyentes, comparación de versiones y revisión.
+- Portafolio, defensa y planificación de una salida al público.
+- Ocho semillas originales y consignas para desarrollar material propio.
+- Afinación con referencia ajustable, teclado, metrónomo y entrenamiento
+  de intervalos.
+- Diario, cronómetro, progreso y grabaciones locales.
+
+USAR EL TALLER DE CANCIONES
+
+LETRA E INTENCIÓN
+
+Escribe título, intención y gancho. Trabaja texto por secciones: verso,
+preestribillo, estribillo y puente. No necesitas usar todas las secciones.
+El conteo de líneas y palabras y la lista de palabras finales ayudan a
+revisar. No son escansión métrica ni validación automática de rima.
+Las consignas son predefinidas: la app no genera letras con un modelo de IA.
+
+MELODÍA Y ACORDES
+
+Selecciona un compás, su sección y acorde. Añade notas o silencios hasta
+completar cuatro pulsos. Se admiten semicorcheas, corcheas, negras, blancas,
+redondas y los puntillos indicados. Añade texto manual bajo notas y marcas
+de respiración. Para corregir un evento, elimínalo y vuelve a añadirlo;
+para edición más detallada utiliza MusicXML en un editor compatible.
+
+Puedes escuchar melodía, acordes o ambos. La guía es sintetizada, sin voz
+humana ni pronunciación. No demuestra que una frase sea cómoda o cantable.
+Prueba el material con tu voz y ayuda docente. El registro permitido del
+editor Do2–Do6 es un límite técnico, no un objetivo que debas alcanzar.
+
+Cambiar la tonalidad en el selector modifica la armadura, sin cambiar alturas
+ni acordes. Los botones Transportar desplazan melodía, acordes y tonalidad
+juntos. Si el resultado sale del registro editable, el cambio se rechaza sin
+modificar el proyecto. Revisa tu zona cómoda antes de cantar después.
+
+El editor trabaja en 4/4, con un acorde por compás y un máximo de 32 compases.
+No aplica ligaduras complejas, tresillos, cambios de compás ni alineación
+automática de toda la letra. Completa esos detalles fuera de la app.
+No es una estación de audio ni mezcla multipista. Las grabaciones de voz
+y la guía de acompañamiento son recursos separados.
+
+OYENTES Y REVISIÓN
+
+Pide por tu cuenta a personas dispuestas que escuchen la demo. Guarda sus
+respuestas reales con alias, claridad de 1–5, recuerdo libre, deseo declarado
+de volver a escuchar y una observación abierta. No se necesitan contactos.
+La app no envía mensajes, distribuye canciones ni verifica a los oyentes.
+Una muestra pequeña describe esas respuestas; no representa el mercado.
+
+Documenta qué cambiaste, por qué y qué escuchaste después. Añade defensa
+y un plan de salida al público o de prueba privada. El plan es texto:
+no crea publicaciones, recordatorios ni acciones automáticas.
+
+EXPORTACIONES
+
+- Proyecto JSON: canción editable, letra, acordes, observaciones y notas.
+- MusicXML: voz en altura de concierto, cifrado por compás, secciones,
+  respiraciones y texto que añadiste manualmente bajo notas.
+- Hoja TXT: letra completa por secciones, intención, gancho, mapa de
+  compases, defensa, revisión y plan.
+- Copia de progreso JSON: clases, controles, diario, ajustes y canción.
+- Grabaciones: descarga cada una desde el portafolio de su control.
+
+Los compases incompletos se rellenan con silencios al exportar MusicXML.
+Exportar no los convierte en aprobados dentro del taller. La letra completa
+por sección no se alinea automáticamente en MusicXML: se incluyen los textos
+introducidos por nota. Revisa notación y prosodia en un editor compatible.
+
+REQUISITOS DE AVANCE
+
+Cada clase exige comprensión, secuencia vocal, ejercicio escrito y
+observación. La longitud mínima del ejercicio comprueba presencia de
+material; no evalúa su calidad semántica ni musical.
+
+Cada control exige seis clases completas, al menos 80% de teoría, secuencia
+a tempo y regularidad de al menos 70% de intervalos entre ataques dentro de
+la tolerancia mostrada, además de una muestra grabada con duración mínima.
+La grabación admite pausas y explicación breve. La app no verifica contenido
+ni origen del archivo. Importarlo no sustituye el control acústico.
+
+Desde nivel 3: revisión docente declarada de 16/20, sin criterios inferiores
+a 3/5. La app no verifica la identidad del revisor ni envía archivos.
+
+Además, los controles exigen progresivamente:
+- Nivel 3: intención, gancho y verso y estribillo con dos líneas o más.
+- Nivel 4: ocho compases completos y al menos 16 notas reales.
+- Nivel 6: 16 compases, al menos 32 notas, cuatro compases de verso y cuatro
+  de estribillo como mínimo, respiración o silencio y texto bajo alguna nota.
+- Nivel 7: tres observaciones con escucha confirmada y revisión de al menos
+  50 caracteres.
+- Nivel 8: lo anterior, defensa de 150–300 palabras y plan de al menos
+  80 caracteres que se revise con el docente.
+
+Estos son mínimos del proyecto educativo. No garantizan calidad vocal,
+prosodia correcta, originalidad, viabilidad ni éxito comercial. No existe
+una puntuación predictiva de éxito. El proyecto necesita canto, escucha,
+revisión humana y trabajo sostenido. La preparación preuniversitaria no
+equivale a una acreditación ni a requisitos oficiales de un centro.
+
+DATOS Y COPIAS
+
+El avance se guarda en localStorage y las grabaciones en IndexedDB.
+No hay cuentas de estudiante, servidor de alumnos ni sincronización entre
+dispositivos. Personas con el mismo perfil del navegador comparten datos.
+Cambiar dominio, navegador o dispositivo, usar modo privado o borrar datos
+puede impedir recuperar el trabajo local.
+
+La copia JSON NO incluye audio. Descarga y conserva las grabaciones aparte.
+Al importar progreso en otro navegador, las referencias de las tomas no
+traen sus archivos. Deberás aportar los audios propios por separado.
+
+Antes de actualizar los archivos del hosting, descarga progreso, proyecto
+y audios. Conserva el mismo dominio y perfil del navegador si quieres
+mantener el almacenamiento local. El hosting puede registrar solicitudes
+normales de página según su configuración, pero la app no le envía las
+grabaciones, letras o progreso.
+
+PRUEBAS REALIZADAS Y COMPROBACIÓN PENDIENTE
+
+Pasaron 27 grupos JavaScript: currículo, adaptación de alturas, bloqueos,
+ejercicios escritos, teoría, rúbricas, cifrado, transporte, importación,
+composición, comentarios, detección sintética, exportaciones e integración.
+Se generaron y revisaron estructuralmente 187 vistas HTML. Se comprobó
+MusicXML con duración, acordes, letra y respiraciones, además de recursos.
+
+No se realizó prueba visual interactiva en navegador ni captura con voz
+y micrófono físicos en este entorno. Comprueba en tus dispositivos:
+permisos de micrófono, afinación, notas repetidas, grabación, reproducción,
+descarga, persistencia tras recargar e importación de tus copias.
+
+FUENTES
+
+En Método, privacidad y fuentes encontrarás consulta sobre cuidado vocal
+del NIDCD, prosodia y composición de Berklee, contexto de estadísticas de
+Spotify for Artists y MusicXML del W3C. El programa y las semillas son
+originales. No existe afiliación ni homologación con esas entidades.
